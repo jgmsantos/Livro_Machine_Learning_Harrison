@@ -1,0 +1,14 @@
+
+
+Datasets para uso:
+https://biostat.app.vumc.org/wiki/Main/DataSets
+
+Para ler excel:
+https://pypi.org/project/xlrd/#description
+conda install -c anaconda xlrd
+pip install xlrd
+
+Informa um relatório detalhado sobre o dataset:
+https://www.geeksforgeeks.org/how-to-install-pandas-profiling-on-linux/
+pip3 install Pandas-Profiling
+
