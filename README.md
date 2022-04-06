@@ -1,5 +1,15 @@
 # Livro_Machine_Learning_Harrison
 
+## Exportar bibliotecas
+
+```
+pip freeze > my_lib.txt
+```
+ou
+```
+conda env export > my_lib.yml
+```
+
 ## Datasets para uso:
 
 [https://biostat.app.vumc.org/wiki/Main/DataSets](https://biostat.app.vumc.org/wiki/Main/DataSets)
