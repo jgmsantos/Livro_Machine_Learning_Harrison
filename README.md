@@ -1,5 +1,10 @@
 # Livro de Machine Learning Matt Harrison
 
+Scrips feitos em: 06/04/2022.
+
+E-mail: jgmsantos@gmail.com
+
+Homepage: [https://guilherme.readthedocs.io/en/latest/](https://guilherme.readthedocs.io/en/latest/)
 
 ## Links de apoio
 
