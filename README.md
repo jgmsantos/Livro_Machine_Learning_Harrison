@@ -8,13 +8,13 @@
 
 [https://pypi.org/project/xlrd/#description](https://pypi.org/project/xlrd/#description)
 
-```python
+```
 conda install -c anaconda xlrd
 ```
 
 ou
 
-```python
+```
 pip install xlrd
 ```
 
@@ -22,7 +22,7 @@ pip install xlrd
 
 [https://www.geeksforgeeks.org/how-to-install-pandas-profiling-on-linux/](https://www.geeksforgeeks.org/how-to-install-pandas-profiling-on-linux/)
 
-```python
+```
 pip3 install Pandas-Profiling
 ```
 
@@ -45,7 +45,7 @@ conda create --name mlbook python=3.9.12
 sudo apt purge -y python2.7-minimal
 ```
 
-## Remover Python 3.6
+## Desinstalar Python 3.6
 
 [https://askubuntu.com/questions/911448/uninstall-python-3-6](https://askubuntu.com/questions/911448/uninstall-python-3-6)
 
