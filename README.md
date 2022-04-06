@@ -10,6 +10,18 @@ ou
 conda env export > my_lib.yml
 ```
 
+**Para instalar as mesma bibliotecas em outro ambiente viartual**, ative o novo ambiente virtual e digite os comandos abaixo:
+
+```
+pip install -r my_lib.txt
+```
+
+ou
+
+```
+conda create -f my_lib.yml
+```
+
 ## Datasets para uso:
 
 [https://biostat.app.vumc.org/wiki/Main/DataSets](https://biostat.app.vumc.org/wiki/Main/DataSets)
