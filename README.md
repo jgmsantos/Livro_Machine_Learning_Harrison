@@ -1,52 +1,61 @@
 # Livro_Machine_Learning_Harrison
 
-Datasets para uso:
-https://biostat.app.vumc.org/wiki/Main/DataSets
+## Datasets para uso:
 
-Para ler excel:
-https://pypi.org/project/xlrd/#description
+[https://biostat.app.vumc.org/wiki/Main/DataSets](https://biostat.app.vumc.org/wiki/Main/DataSets)
+
+## Ler excel:
+
+[https://pypi.org/project/xlrd/#description](https://pypi.org/project/xlrd/#description)
+
+```python
 conda install -c anaconda xlrd
+```
+
+ou
+
+```python
 pip install xlrd
+```
 
-Informa um relatório detalhado sobre o dataset:
-https://www.geeksforgeeks.org/how-to-install-pandas-profiling-on-linux/
+## Informa um relatório detalhado sobre o dataset:
+
+[https://www.geeksforgeeks.org/how-to-install-pandas-profiling-on-linux/](https://www.geeksforgeeks.org/how-to-install-pandas-profiling-on-linux/)
+
+```python
 pip3 install Pandas-Profiling
+```
 
-https://stackoverflow.com/questions/41201686/from-configparser-import-safeconfigparser-importerror-no-module-named-configpa
-Se der erro:
-ModuleNotFoundError: No module named 'ConfigParser'
-https://github.com/pyjanitor-devs/pyjanitor/issues/696
+[https://stackoverflow.com/questions/41201686/from-configparser-import-safeconfigparser-importerror-no-module-named-configpa](https://stackoverflow.com/questions/41201686/from-configparser-import-safeconfigparser-importerror-no-module-named-configpa)
+
+[https://github.com/pyjanitor-devs/pyjanitor/issues/696](https://github.com/pyjanitor-devs/pyjanitor/issues/696)
 
 
-# Instalar outra versao do Python
+## Instalar outra versão do Python
+
+```
 conda create --name mlbook python=3.9.12
+```
 
-# Desistalar python 2
+## Desinstalar python 2
 
-Remove python2
+[https://stackoverflow.com/questions/44602191/how-to-completely-uninstall-python-2-7-13-on-ubuntu-16-04](https://stackoverflow.com/questions/44602191/how-to-completely-uninstall-python-2-7-13-on-ubuntu-16-04)
 
+```
 sudo apt purge -y python2.7-minimal
+```
 
-https://stackoverflow.com/questions/44602191/how-to-completely-uninstall-python-2-7-13-on-ubuntu-16-04
+## Remover Python 3.6
 
-Remover Python 3.6
+[https://askubuntu.com/questions/911448/uninstall-python-3-6](https://askubuntu.com/questions/911448/uninstall-python-3-6)
+
+```
 sudo apt-get remove --purge python3.6
-https://askubuntu.com/questions/911448/uninstall-python-3-6
+```
+## Bibliotecas do livro
 
-# Erro ao rodar jupyter
-
-Running cells with 'Python 3.6.9 64-bit' requires ipykernel package.
-Run the following command to install 'ipykernel' into the Python environment. 
-Command: '/usr/bin/python3 -m pip install ipykernel -U --user --force-reinstall'
-
-Selecionar a versão do Python sendo executada no ambiente virtual.
-
-solução:
-Ctrl+shift+p e selecionar o interpretador que esta instalado no ambiente virtual e depois executar o comando abaixo:
-conda install -n <nome_ambiente> ipykernel --update-deps --force-reinstall
-
-# Bibliotecas do livro
-conda install python==3.6 => Desuso
+```
+conda install python==3.6 | Desuso
 pip install catboost==0.11.1 | versão instalada: 1.0.4
 pip install category_encoders==2.0.0
 pip install Missing dtreeviz | versão instalada: 1.3.5
@@ -81,3 +90,4 @@ pip install treeinterpreter==0.1.0
 pip install umap==0.3.8 | versão instalada: 0.1.1
 pip install xgboost==0.81
 pip install yellowbrick==0.9 | versão instalada: 1.4
+```
