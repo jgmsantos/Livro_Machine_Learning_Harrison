@@ -1,5 +1,10 @@
 # Livro_Machine_Learning_Harrison
 
+
+## Links de apoio
+
+[https://www.kaggle.com/code/praanj/titanic-decision-tree-complete-evaluation/notebook](https://www.kaggle.com/code/praanj/titanic-decision-tree-complete-evaluation/notebook)
+
 ## Exportar bibliotecas
 
 Essa tarefa é interessante para replicar alguma aplicação em um novo ambiente virtual usando as mesmas bibliotecas do ambiente virtual antigo.
@@ -77,6 +82,21 @@ sudo apt purge -y python2.7-minimal
 ```
 sudo apt-get remove --purge python3.6
 ```
+
+## 
+
+```
+/tmp/ipykernel_20117/1564088600.py:15: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+```
+
+Solução:
+
+```
+pip3 install PyQt5
+```
+
+
 ## Bibliotecas do livro
 
 ```
