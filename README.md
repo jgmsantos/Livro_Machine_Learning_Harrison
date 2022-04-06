@@ -2,6 +2,9 @@
 
 ## Exportar bibliotecas
 
+Essa tarefa é interessante para replicar alguma aplicação em um novo ambiente virtual usando as mesmas bibliotecas do ambiente virtual antigo.
+
+
 ```
 pip freeze > my_lib.txt
 ```
