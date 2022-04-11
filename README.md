@@ -133,7 +133,8 @@ pip install scikit-plot==0.3.7
 pip install scipy==1.1.0 | versão instalada: 1.8.0
 pip install seaborn==0.9.0 | versão instalada: 0.11.2
 pip install shap==0.25.2
-pip install sklearn==0.21.1 | versão instalada: 0.0
+pip install sklearn==0.25 | versão instalada: 0.0
+pip install --user scikit-learn==0.22.1
 pip install statsmodels==0.9.0 | versão instalada: 0.13.2
 pip install tpot==0.9.5
 pip install treeinterpreter==0.1.0
