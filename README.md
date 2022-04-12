@@ -16,11 +16,11 @@ Essa tarefa é interessante para replicar alguma aplicação em um novo ambiente
 
 
 ```
-pip freeze > my_lib.txt
+pip freeze > requirements.txt
 ```
 ou
 ```
-conda env export > my_lib.yml
+conda env export > environment.yml
 ```
 
 **Para instalar as mesma bibliotecas em outro ambiente viartual**, ative o novo ambiente virtual e digite os comandos abaixo:
@@ -65,6 +65,11 @@ pip3 install Pandas-Profiling
 
 [https://github.com/pyjanitor-devs/pyjanitor/issues/696](https://github.com/pyjanitor-devs/pyjanitor/issues/696)
 
+## Atualizar pip3
+
+```
+pip3 install --upgrade pip
+```
 
 ## Instalar outra versão do Python
 
@@ -101,11 +106,30 @@ Solução:
 pip3 install PyQt5
 ```
 
+## Ao criar um novo ambiente virtual
+
+Cria um novo ambiente virtual com o Python 3.9.12.
+
+```
+conda create --name mlmatt python=3.9.12
+```
+
+Atualizar o pip.
+
+```
+python -m pip install --upgrade pip
+```
+
+Executar o Jupyter Notebook.
+```
+/home/gui/anaconda3/envs/<nome_ambiente_virtual>/bin/python -m pip install ipykernel -U --force-reinstall
+```
+
 
 ## Bibliotecas do livro
 
 ```
-conda install python==3.6 | Desuso
+conda install python==3.6 | versão instalada: 3.9.12
 pip install catboost==0.11.1 | versão instalada: 1.0.4
 pip install category_encoders==2.0.0
 pip install Missing dtreeviz | versão instalada: 1.3.5
@@ -120,7 +144,7 @@ pip install imblearn==0.4.3 | versão instalada: 0.0
 pip install janitor==0.16.6 | versão instalada: 0.1.1
 pip install Missing lime | versão instalada: 0.2.0.1
 pip install matplotlib==2.2.3 | versão instalada: 3.4.2
-pip install missingno==0.4.1
+pip install missingno==0.4.2
 pip install mlxtend==0.14.0
 pip install numpy==1.15.2 | versão instalada: 1.22.3
 pip install pandas==0.23.4 | versão instalada: 1.2.0
@@ -141,10 +165,12 @@ pip install treeinterpreter==0.1.0
 pip install umap==0.3.8 | versão instalada: 0.1.1
 pip install xgboost==0.81
 pip install yellowbrick==0.9 | versão instalada: 1.4
-pip install pyjanitor
-pip install xlrd
-pip install ipywidgets
-pip install --user jinja2==3.0.0
-pip install configparser
-pip install --user pandas_profiling==2.13.0
+pip install pyjanitor | versão instalada: 0.22.0
+pip install xlrd | versão instalada: 2.0.1
+pip install ipywidgets | versão instalada: 7.7.0
+pip install jinja2==3.0.0 | versão instalada: 3.1.1
+pip install configparser | versão instalada: 5.2.0
+pip install Flask==2.1.1
+pip install multimethod==1.4
+pip install pydantic==1.9.0
 ```
