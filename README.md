@@ -141,4 +141,10 @@ pip install treeinterpreter==0.1.0
 pip install umap==0.3.8 | versão instalada: 0.1.1
 pip install xgboost==0.81
 pip install yellowbrick==0.9 | versão instalada: 1.4
+pip install pyjanitor
+pip install xlrd
+pip install ipywidgets
+pip install --user jinja2==3.0.0
+pip install configparser
+pip install --user pandas_profiling==2.13.0
 ```
